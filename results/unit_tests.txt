@@ -1,0 +1,14 @@
+test_ascii_all_bytes (test_sdes.AlgorithmTests.test_ascii_all_bytes) ... ok
+test_collision_accounting (test_sdes.AlgorithmTests.test_collision_accounting) ... ok
+test_complete_search (test_sdes.AlgorithmTests.test_complete_search) ... ok
+test_inverse_permutation (test_sdes.AlgorithmTests.test_inverse_permutation) ... ok
+test_published_examples (test_sdes.AlgorithmTests.test_published_examples) ... ok
+test_request_validation (test_sdes.AlgorithmTests.test_request_validation) ... ok
+test_trace_matches_fast_path (test_sdes.AlgorithmTests.test_trace_matches_fast_path) ... ok
+test_unicode_and_errors (test_sdes.AlgorithmTests.test_unicode_and_errors) ... ok
+test_validation (test_sdes.AlgorithmTests.test_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.028s
+
+OK

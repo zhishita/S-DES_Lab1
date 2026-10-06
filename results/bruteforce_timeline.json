@@ -1,0 +1,128 @@
+{
+  "started_utc": "2026-10-06T04:37:40.382635+00:00",
+  "finished_utc": "2026-10-06T04:37:40.383891+00:00",
+  "elapsed_ms": 2.302,
+  "checked": 1024,
+  "candidates": [
+    "0111001010",
+    "1010000010",
+    "1011001010"
+  ],
+  "timeline": [
+    {
+      "checked": 64,
+      "elapsed_ms": 0.1515,
+      "candidates": []
+    },
+    {
+      "checked": 128,
+      "elapsed_ms": 0.2937,
+      "candidates": []
+    },
+    {
+      "checked": 192,
+      "elapsed_ms": 0.4339,
+      "candidates": []
+    },
+    {
+      "checked": 256,
+      "elapsed_ms": 0.5732,
+      "candidates": []
+    },
+    {
+      "checked": 320,
+      "elapsed_ms": 0.7151,
+      "candidates": []
+    },
+    {
+      "checked": 384,
+      "elapsed_ms": 0.857,
+      "candidates": []
+    },
+    {
+      "checked": 448,
+      "elapsed_ms": 0.9987,
+      "candidates": []
+    },
+    {
+      "checked": 512,
+      "elapsed_ms": 1.1411,
+      "candidates": [
+        "0111001010"
+      ]
+    },
+    {
+      "checked": 576,
+      "elapsed_ms": 1.2838,
+      "candidates": [
+        "0111001010"
+      ]
+    },
+    {
+      "checked": 640,
+      "elapsed_ms": 1.4278,
+      "candidates": [
+        "0111001010"
+      ]
+    },
+    {
+      "checked": 704,
+      "elapsed_ms": 1.5745,
+      "candidates": [
+        "0111001010",
+        "1010000010"
+      ]
+    },
+    {
+      "checked": 768,
+      "elapsed_ms": 1.7189,
+      "candidates": [
+        "0111001010",
+        "1010000010",
+        "1011001010"
+      ]
+    },
+    {
+      "checked": 832,
+      "elapsed_ms": 1.8634,
+      "candidates": [
+        "0111001010",
+        "1010000010",
+        "1011001010"
+      ]
+    },
+    {
+      "checked": 896,
+      "elapsed_ms": 2.0129,
+      "candidates": [
+        "0111001010",
+        "1010000010",
+        "1011001010"
+      ]
+    },
+    {
+      "checked": 960,
+      "elapsed_ms": 2.1567,
+      "candidates": [
+        "0111001010",
+        "1010000010",
+        "1011001010"
+      ]
+    },
+    {
+      "checked": 1024,
+      "elapsed_ms": 2.3018,
+      "candidates": [
+        "0111001010",
+        "1010000010",
+        "1011001010"
+      ]
+    }
+  ],
+  "pairs": [
+    [
+      "10010111",
+      "00111000"
+    ]
+  ]
+}

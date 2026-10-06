@@ -1,0 +1,110 @@
+{
+  "cases": [
+    {
+      "method": "GET",
+      "path": "/",
+      "action": null,
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/app.js",
+      "action": null,
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/style.css",
+      "action": null,
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "method": "GET",
+      "path": "/sdes/core.py",
+      "action": null,
+      "expected": 404,
+      "actual": 404,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api",
+      "action": "encrypt",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api",
+      "action": "decrypt",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api",
+      "action": "encode",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api",
+      "action": "decode",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api",
+      "action": "encrypt",
+      "expected": 400,
+      "actual": 400,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api",
+      "action": "crack",
+      "expected": 400,
+      "actual": 400,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api",
+      "action": "encode",
+      "expected": 400,
+      "actual": 400,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api",
+      "action": "collisions",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "method": "POST",
+      "path": "/api",
+      "action": "encrypt",
+      "expected": 403,
+      "actual": 403,
+      "passed": true
+    }
+  ],
+  "passed": 13,
+  "base_url": "http://127.0.0.1:8767"
+}
